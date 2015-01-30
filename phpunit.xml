@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<phpunit
+        bootstrap="bootstrap.php"
+        colors="true"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        verbose="true"
+        stopOnFailure="false"
+        processIsolation="false"
+        backupGlobals="false"
+        syntaxCheck="true"
+        >
+    <testsuites>
+        <testsuite name="Let me in">
+            <directory>./src</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <blacklist>
+            <directory>./vendor</directory>
+            <file>./bootstrap.php</file>
+        </blacklist>
+    </filter>
+</phpunit>
