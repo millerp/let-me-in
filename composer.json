@@ -15,7 +15,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "Squid\\LetMeIn\\Calculator\\": "src/calculator"
+      "Squid\\LetMeIn\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Squid\\LetMeInTests\\": "test"
     }
   }
 }
