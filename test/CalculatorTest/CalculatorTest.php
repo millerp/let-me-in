@@ -1,9 +1,10 @@
 <?php
 
-namespace Squid\LetMeInTests\Calculator;
+
+namespace Squid\LetMeInTests\CalculatorTest;
 
 use PHPUnit_Framework_TestCase as TestCase;
-use Squid\LetMeIn\Calculator;
+use Squid\LetMeIn\Calculator\Calculator;
 
 /**
  * @author  Fábio Carneiro <fahecs@gmail.com>
@@ -14,7 +15,7 @@ class CalculatorTest extends TestCase
     public function setUp()
     {
         if (!class_exists(Calculator::class)) {
-            $this->markTestIncomplete();
+            $this->markTestSkipped();
         }
     }
 
