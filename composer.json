@@ -1,0 +1,21 @@
+{
+  "name": "squid/let-me-in",
+  "description": "Join our team",
+  "minimum-stability": "dev",
+  "require-dev": {
+    "phpunit/phpunit": "~4.4",
+    "squizlabs/php_codesniffer": "~2.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "fabiocarneiro",
+      "email": "fahecs@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Squid\\LetMeIn\\Calculator\\": "src/calculator"
+    }
+  }
+}
