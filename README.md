@@ -6,4 +6,4 @@ Join our team by completing some of the tests
 
 
 ##Calculator
-In this test, all you need to do is fork this repository, and use TDD concepts to make the tests pass.
+In this test, all you need to do is fork this repository, and use TDD concepts to make the tests pass. Then submit your solution in a pull request.
